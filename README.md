@@ -20,6 +20,7 @@
 
 ### Через Composer (рекомендуется)
 ```bash
+composer config repositories.tikhomirov-wp-hide-login-plugin git https://github.com/tikhomirov/wp-hide-login-plugin.git
 composer require tikhomirov/wp-hide-login-plugin
 ```
 
