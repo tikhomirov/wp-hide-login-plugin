@@ -1,16 +1,16 @@
 {
-  "name": "rwsite/wp-hide-login-plugin",
-  "description": "wp-hide-login-plugin",
+  "name": "tikhomirov/wp-hide-login-plugin",
+  "description": "Плагин безопасности для замены стандартного URL входа `wp-login.php` на пользовательский slug и защиты от сканирования админки.",
   "type": "wordpress-plugin",
-  "version": "1.0.0",
-  "license": "proprietary",
+  "license": "GPL-3.0-or-later",
   "authors": [
     {
       "name": "Aleksei Tikhomirov",
-      "email": "alex@rwsite.ru"
+      "email": "alex@rwsite.ru",
+      "homepage": "https://rwsite.ru"
     }
   ],
   "require": {
-    "php": ">=8.0"
+    "php": ">=7.4"
   }
 }
