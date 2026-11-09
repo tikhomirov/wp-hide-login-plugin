@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Hide Login
  * Description: Protect your website by changing the login URL and preventing access to wp-login.php page and wp-admin directory while not logged-in
- * Version: 1.0.0
+ * Version: 1.0.1
  * Requires at least: 6.4
  * Tested up to: 6.8
  * Requires PHP: 8.0

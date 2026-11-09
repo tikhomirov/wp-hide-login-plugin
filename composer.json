@@ -1,6 +1,7 @@
 {
   "name": "tikhomirov/wp-hide-login-plugin",
   "description": "Плагин безопасности для замены стандартного URL входа `wp-login.php` на пользовательский slug и защиты от сканирования админки.",
+  "version": "1.0.1",
   "type": "wordpress-plugin",
   "license": "GPL-3.0-or-later",
   "authors": [
