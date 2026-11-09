@@ -9,6 +9,6 @@
 3. Commit, push, PR (без merge/deploy).
 
 ## Код
-Итоговый коммит с исправлением: см. SHA в сообщении PR / `git log` на ветке `cursor/fix-logout-redirect-3680`.
+Итоговый коммит с исправлением: `8b2cd49`.
 
 **Ограничение тестов:** полноценный интеграционный сценарий WordPress (cookies, `wp_logout()`, redirect после выхода) в CI не поднимается; проверена логика root cause и существующие PHP lint.
