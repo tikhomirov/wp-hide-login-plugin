@@ -11,6 +11,6 @@
 
 ## Код
 - Исправление logout: `8b2cd49` (в master через PR #3).
-- Версия 1.0.1: см. коммит на ветке `cursor/bump-plugin-version-3680` (SHA обновляется в финальном docs-коммите).
+- Версия 1.0.1: `d18bec1`.
 
 **Ограничение тестов:** полноценный интеграционный сценарий WordPress (cookies, `wp_logout()`, redirect после выхода) в CI не поднимается; проверена логика root cause, PHP lint и PHPUnit.
