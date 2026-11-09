@@ -20,6 +20,8 @@ if (! defined('ABSPATH')) {
     exit('-1');
 }
 
+require_once __DIR__.'/inc/login-page-guard.php';
+
 // Plugin constants
 class Plugin
 {
@@ -252,8 +254,7 @@ class Plugin
                 $redirect_to = $_REQUEST['redirect_to'];
             }
 
-            if (is_user_logged_in()) {
-                $user = wp_get_current_user();
+            if (is_user_logged_in() && should_redirect_logged_in_from_login_page($_REQUEST)) {
                 wp_safe_redirect($redirect_to);
                 exit();
             }
