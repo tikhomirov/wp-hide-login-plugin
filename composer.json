@@ -12,5 +12,22 @@
   ],
   "require": {
     "php": ">=7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.5"
+  },
+  "autoload": {
+    "files": [
+      "inc/login-page-guard.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "hide_login\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit",
+    "lint": "find . -name '*.php' -not -path './vendor/*' -print0 | xargs -0 -n1 php -l"
   }
 }
