@@ -6,6 +6,8 @@
 
 Secures WordPress sites by changing the default wp-login.php URL to a custom slug and blocking unauthorized access.
 
+**Current version:** 1.0.1 — see [CHANGELOG.md](CHANGELOG.md).
+
 ## Requirements
 
 | Component | Minimum | Tested |
@@ -38,6 +40,8 @@ composer require tikhomirov/wp-hide-login-plugin
 ## Русский
 
 Защищает сайты на WordPress путем скрытия стандартного адреса входа wp-login.php и перенаправления на кастомный slug.
+
+**Текущая версия:** 1.0.1 — см. [CHANGELOG.md](CHANGELOG.md).
 
 ### Совместимость
 - **WordPress:** от 5.0 и выше
